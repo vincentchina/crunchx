@@ -1,0 +1,21 @@
+SHENGMU:'b','p','m','f','d','t','n','l','g','k','h','j','q','x','zh','ch','sh','r','z','c','s','y','w'
+
+YUNMU:'i','u','v','a','ia','ua','o','uo','e','ie','ve','ai','iai','uai','ei','uei','ao','iao','ou','iou','an','ian','uan','van','en','in','uen','vn','ang','iang','uang','eng','ing','ueng','ong','iong'
+
+PINYIN:SHENGMU YUNMU
+
+NUM:'0','1','2','3','4','5','6','7','8','9'
+
+YEARLEADER:'19','20'
+YEAR:YEARLEADER NUM NUM
+
+MOM:'01','02','03','04','05','06','07','08','09','10','11','12'
+
+DAYLEADER:'1','2'
+DAY:DAYLEADER NUM
+DAY:'01','02','03','04','05','06','07','08','09','10','30','31'
+
+BIRTHDAY:YEAR MOM DAY
+
+PRODUCER:PINYIN PINYIN
+#PRODUCER:PINYIN PINYIN BIRTHDAY
